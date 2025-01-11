@@ -1,84 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sateesh">
+        <meta name="description" content="In the Wired Brain Coffee web page, provided the details of the ingredients and procedure using lists.">
+        <title>Hot Cocoa Recipe</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <h2><a name="gototop">Wired Brain Coffee Extras</a></h2>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Cocoa Recipe</title>
-</head>
-
-<body>
-    <header>
-        <h2>Wierd Brain Coffee Extras</h2>
-        <ol class="breadcrumb">
-            <li class="breadcrumb-items">Wired Brain Coffee</li>
-            <li class="breadcrumb-items">Recipes</li>
-            <li class="breadcrumb-items">Hot Cocoa</li>
-        </ol>
-        <ul>
-            <li><a href="#cocoa">Hot Cocoa Recipie</a></li>
-            <li><a href="#Brownie">Brownie Bar</a></li>
-        </ul>
-    </header>
-
-    <section id="Hot Cocoa Recipe">
-        <a name="cocoa"><h1>Hot Cocoa Recipe</h1></a>
-        <h3>Ingredients</h3>
-        <ul style="list-style-type: square;">
-            <li>2 <abbr title="Tablespoon">T</abbr> Wired Brain Coffee Hot Cocao Mix</li>
-            <li>8 oz Milk</li>
-            <li>Mashmallows (Optional)</li>
-        </ul>
-        <h3>Steps</h3>
-        <ol type="I">
-            <li>Scoop hot cocoa mix into a mug</li>
-            <li>Heat milk on the stove or in the microwave just before a boil</li>
-            <ol type="i">
-                <li>Microwave on high for 30 seconds</li>
-                <li></li>
+            <!-- lists are used to make navigation bar -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Wired Brain Coffee</li>
+                <li class="breadcrumb-item">Recipes</li>
+                <li class="breadcrumb-item active">Hot Cocoa</li>
             </ol>
-            <li>Pour milk in to the mug, stirring gentaly as your pour</li>
-            <li>Sitr until mix is fully dissolved into the milk</li>
-            <li>Top with mashmallows if you must</li>
-        </ol>
 
-    </section>
+            <nav>
+                <ul>
+                    <li><a href="#cocoa">Hot Cocoa</a></li>
+                    <li><a href="#brownies">Brownie Bars</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div id="Brownie">
-        <h1>Brownie Bar</h1>
-        <h3>Ingredients</h3>
-        <ul style="list-style-type: square;">
-            <li>2 <abbr title="Tablespoon">T</abbr> Wired Brain Coffee Hot Cocao Mix</li>
-            <li>8 oz Milk</li>
-            <li>Mashmallows (Optional)</li>
-        </ul>
-        <h3>Steps</h3>
-        <ol type="I">
-            <li>Scoop hot cocoa mix into a mug</li>
-            <li>Heat milk on the stove or in the microwave just before a boil</li>
-            <ol type="i">
-                <li>Microwave on high for 30 seconds</li>
-                <li></li>
+        <section id="Hot Cocoa Recipe">
+            <a name="cocoa">
+                <h1>Hot Cocoa Recipe</h1>
+            </a>
+            <h3>Ingrediants</h3>
+            <ul type="square">
+                <li>
+                    2 <abbr title="Tablespoon">T</abbr> Wired Brain Coffee Hot Cocoa Mix.
+                </li>
+                <li>8 oz Milk</li>
+                <li>Marshmallows</li>
+            </ul>
+            <h3>Steps</h3>
+            <ol type="I" reversed>
+                <li>Scoop Hot Cocoa Mix into a mug</li>
+                <li>
+                    Heat milk on the stove or in the microwave to just below a boil
+                    <ol type="1" start="1" reversed>
+                        <li>Microwave on high for 30 seconds.</li>
+                        <li>Microwave on medium for 45 seconds.</li>
+                        <li>Microwave on low for 60 seconds.</li>
+                    </ol>
+                </li>
+                <li>Pour milk into the mug, stiring gently as you pour.</li>
+                <li>Stir until mix is fully dissolved in the milk.</li>
+                <li>Top with marshmallows if you must.</li>
             </ol>
-            <li>Pour milk in to the mug, stirring gentaly as your pour</li>
-            <li>Sitr until mix is fully dissolved into the milk</li>
-            <li>Top with mashmallows if you must</li>
-        </ol>
 
-    </div>
-
-    <section title="Interesting Cocoa Facts">
-        <h4>Cocoa Facts</h4>
-        <span>Do you know the difference?</span>
+            <a href="#gototop">Go to Top</a>
+        </section>
 
 
-        <dl>
-            <dt>Cocoa</dt>
-            <dd>Cocoa comes from the seeds of the cacao tree (Theobroma cacao). Native to Central and South America, it was sacred to ancient cultures like the Maya. Cocoa is rich in antioxidants, boosts mood, and improves heart health. Leading producers are Côte d'Ivoire and Ghana. It's key in chocolate and skincare.</dd>
-            <dt>Chocolate</dt>
-            <dd>Chocolate is made from roasted and processed cocoa beans. It comes in various types—dark, milk, and white—based on cocoa content. Rich in antioxidants, dark chocolate offers health benefits, like improved heart and brain function. Enjoyed globally, it’s used in desserts, beverages, and snacks, with major producers in West Africa.</dd>
-        </dl>
-    </section>
-</body>
 
+        <div id="brownies">
+            <h1>Brownie Recipe</h1>
+            <h3>Ingrediants</h3>
+            <ul type="square">
+                <li>
+                    2 <abbr title="Tablespoon">T</abbr> Wired Brain Coffee Hot Cocoa Mix.
+                </li>
+                <li>8 oz Milk</li>
+                <li>Marshmallows</li>
+            </ul>
+            <h3>Steps</h3>
+            <ol type="I" reversed>
+                <li>Scoop Hot Cocoa Mix into a mug</li>
+                <li>
+                    Heat milk on the stove or in the microwave to just below a boil
+                    <ol type="1" start="1" reversed>
+                        <li>Microwave on high for 30 seconds.</li>
+                        <li>Microwave on medium for 45 seconds.</li>
+                        <li>Microwave on low for 60 seconds.</li>
+                    </ol>
+                </li>
+                <li>Pour milk into the mug, stiring gently as you pour.</li>
+                <li>Stir until mix is fully dissolved in the milk.</li>
+                <li>Top with marshmallows if you must.</li>
+            </ol>
+
+            <a href="#">Go to Top</a>
+        </div>
+
+
+        <section title="Interesting Cocoa Facts">
+            <h4>Cocoa Facts</h4>
+            <span>Do you know the difference?</span>
+
+            <dl>
+                <dt>Cocoa</dt>
+                <dd>Cocoa is the powdered substance left after processing cocoa beans and has little or no cocoa butter.</dd>
+
+                <dt>Chacolate</dt>
+                <dd>Chacolate is basically cocoa with the cocoa butter and ofetn sugar and milk. </dd>
+            </dl>
+
+        </section>
+    </body>
 </html>

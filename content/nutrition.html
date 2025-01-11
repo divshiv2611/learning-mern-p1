@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wired Brain Coffee - Nutrition Information</title>
     <style>
-        table{
+        table {
             margin-left: auto;
             margin-right: auto;
         }
-        th,td {
+
+        th,
+        td {
             border-width: 3px;
             border-style: solid;
             padding: 5px;
         }
-        .carbs{
+
+        .carbs {
             background-color: yellow;
         }
     </style>
 </head>
+
 <body>
     <header>
+        <picture style="float: left;">
+
+            <source type="image/png" srcset="wired-brain-coffee-logo-250.png 250w, wired-brain-coffee-logo.png 500w"
+            sizes="(max-width:800px) 15vw, (min-width:800px) 25vw"/>
+            <source type="image/jpeg" srcset="wired-brain-coffee-logo-250.jpg 250w, wired-brain-coffee-logo.jpg 500w"
+            sizes="(max-width:800px) 15vw, (min-width:800px) 25vw"/> 
+             
+
+            <img src="wired-brain-coffee-logo.png" alt="Wired Brain Coffee Logo"/>
+        </picture>
+
+        <picture style="float: left;">
+
+            <source media="print" srcset="wired-brain-coffee-logo-250.png 250w, wired-brain-coffee-logo.png 500w"
+            sizes="(max-width:800px) 15vw, (min-width:800px) 25vw"/>
+            <source media="screen" srcset="wired-brain-coffee-logo-250.jpg 250w, wired-brain-coffee-logo.jpg 500w"
+            sizes="(max-width:800px) 15vw, (min-width:800px) 25vw"/> 
+             
+
+            <img src="wired-brain-coffee-logo.png" alt="Wired Brain Coffee Logo"/>
+        </picture>
+
+
+        <div style="float: left; margin: 5px;">
         <h1>Wired Brain Coffee</h1>
         <h2>Nutrition Information</h2>
+        </div>
+        <div style="clear: both;"></div>
     </header>
 
     <section id="nutrition">
         <p>
-            Wired Brain Coffee believes it is imporatant for you to know what you put in the body. To that end, here is the nutritional information for our products. 
+            Wired Brain Coffee believes it is imporatant for you to know what you put in the body. To that end, here is
+            the nutritional information for our products.
         </p>
         <table>
             <caption>Wired Brain Nutritional Information</caption>
             <colgroup>
-                <col span="5"/>
+                <col span="5" />
                 <col span="2" class="carbs">
             </colgroup>
             <thead>
@@ -87,11 +119,12 @@
             </tfoot>
         </table>
     </section>
-    <br/>
-    <br/>
+    <br />
+    <br />
 
     <footer>
         &copy; DPRS 2025
     </footer>
 </body>
+
 </html>
