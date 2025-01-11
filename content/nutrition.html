@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wired Brain Coffee - Nutrition Information</title>
+    <style>
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th,td {
+            border-width: 3px;
+            border-style: solid;
+            padding: 5px;
+        }
+        .carbs{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,6 +31,10 @@
         </p>
         <table>
             <caption>Wired Brain Nutritional Information</caption>
+            <colgroup>
+                <col span="5"/>
+                <col span="2" class="carbs">
+            </colgroup>
             <thead>
                 <tr>
                     <th rowspan="2">Drinks</th>
