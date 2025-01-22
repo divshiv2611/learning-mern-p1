@@ -1,10 +1,40 @@
 body{
-    background-color: aqua;
-}
-body{
     background-color: blanchedalmond;
 }
-
+/* #head{
+    display: flex;
+    text-align: center;
+} */
+ #navi{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+ }
+ #navi li:hover{
+    background-color: aqua;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+ }
+#navi li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    margin: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+#navi li a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    padding: 5px;
+}
 /* #navi{
     list-style-type: none;
 } */
